@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"> 
+    
+    <item
+        android:id="@+id/menu_action_confirm_new_exercise"
+        android:orderInCategory="2"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_action_accept"
+        android:menuCategory="container" />
+    
+    <item
+        android:id="@+id/menu_action_cancel_new_exercise"
+        android:orderInCategory="1"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_action_cancel"
+        android:menuCategory="container" />
+    
+    
+
+</menu>

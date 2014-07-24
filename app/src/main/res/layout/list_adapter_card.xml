@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/listAdapterFicha"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txtAdapterTraining"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/linearLayout1"
+        android:text="@string/txt_trainings"
+        android:textColor="@color/DarkGray" />
+
+    <TextView
+        android:id="@+id/adapterTraining"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtAdapterTraining"
+        android:layout_alignBottom="@+id/txtAdapterTraining"
+        android:layout_toRightOf="@+id/txtAdapterTraining"
+        android:paddingBottom="10dp"
+        android:paddingLeft="5dp"
+        android:text="TextView"
+        android:textColor="@color/Gray" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true" >
+
+        <TextView
+            android:id="@+id/adapterExerciseName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="5dp"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/Black" />
+
+        <TextView
+            android:id="@+id/adapterStartDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:padding="5dp"
+            android:text="TextView"
+            android:textColor="@color/Gray" />
+
+        <TextView
+            android:id="@+id/adapterEndDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="TextView"
+            android:textColor="@color/Gray" />
+    </LinearLayout>
+
+</RelativeLayout>

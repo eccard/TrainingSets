@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/textViewPeso"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textPeso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textQntRepeats"
+        android:layout_alignBottom="@+id/textQntRepeats"
+        android:layout_alignLeft="@+id/text_proximo_exercicio"
+        android:text="TextView" />
+
+    <ImageView
+        android:id="@+id/imageView_exercicio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_action_play" />
+
+    <TextView
+        android:id="@+id/textAdapterExerciseName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView_exercicio"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/text_proximo_exercicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textAdapterExerciseName"
+        android:text="@string/txt_peso" />
+
+    <TextView
+        android:id="@+id/textAdapterRepeats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textAdapterSeries"
+        android:layout_alignBottom="@+id/textAdapterSeries"
+        android:layout_alignParentLeft="true"
+        android:text="@string/txt_series" />
+
+    <TextView
+        android:id="@+id/textQntSeries"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textAdapterRepeats"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textAdapterSeries"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/text_proximo_exercicio"
+        android:layout_alignBottom="@+id/text_proximo_exercicio"
+        android:layout_centerHorizontal="true"
+        android:text="@string/txt_repeats" />
+
+    <TextView
+        android:id="@+id/textQntRepeats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textAdapterSeries"
+        android:layout_centerHorizontal="true"
+        android:text="TextView" />
+
+</RelativeLayout>

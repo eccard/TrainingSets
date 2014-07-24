@@ -1,0 +1,23 @@
+<resources>
+
+    <string name="app_name">Training Sets</string>
+    <string name="menu_about">Sobre</string>
+    <string name="btn_cancel">Cancelar</string>
+    <string name="txt_trainings">Treinos: </string>
+    <string name="txt_exercíses">Exercícios</string>
+    <string name="txt_name">Nome: </string>
+    <string name="txt_begin_date">Data de Início: </string>
+    <string name="txt_end_date">Data de Fim: </string>
+    <string name="txt_muscle_group">Grupo Muscular: </string>
+    <string name="txt_repeats">Repetições</string>
+    <string name="txt_proximo_exercicio">Próximo Exercício</string>
+    <string name="txt_series">Séries</string>
+    <string name="button_new_exercise">Novo Exercício</string>
+    <string name="context_menu_delete">Deletar</string>
+    <string name="context_menu_edit">Editar</string>
+    <string name="txt_peso">Peso(Kg)</string>
+    <string name="app_version">Versão 1.0</string>
+    <string name="exercise_name">Exercício</string>
+    
+    
+</resources>

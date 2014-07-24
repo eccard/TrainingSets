@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayoutExercicioFazer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="fill_horizontal"
+    android:gravity="clip_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textExerciseName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/barra_texto"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/WhiteSmoke" />
+
+    <TextView
+        android:id="@+id/textViewPesoValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewRepeatsValue"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textViewPeso"
+        android:background="@drawable/barra_baixo_texto"
+        android:gravity="center"
+        android:padding="2dp"
+        android:text="TextView"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/DarkGray" />
+
+    <ImageView
+        android:id="@+id/imageView_exercicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textExerciseName"
+        android:layout_toLeftOf="@+id/textViewRepeats"
+        android:padding="15dp" />
+
+    <TextView
+        android:id="@+id/textViewSeries"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textViewRepeats"
+        android:layout_alignLeft="@+id/textViewRepeats"
+        android:layout_alignRight="@+id/textViewRepeats"
+        android:background="@drawable/barra_texto"
+        android:gravity="center"
+        android:padding="2dp"
+        android:text="@string/txt_series"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/White" />
+
+    <TextView
+        android:id="@+id/textViewSeriesValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textViewRepeatsValue"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textViewSeries"
+        android:background="@drawable/barra_baixo_texto"
+        android:gravity="center"
+        android:padding="2dp"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/DarkGray" />
+
+    <TextView
+        android:id="@+id/textViewRepeatsValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textViewPesoValue"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textViewRepeats"
+        android:background="@drawable/barra_baixo_texto"
+        android:gravity="center"
+        android:padding="2dp"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/DarkGray" />
+
+    <Chronometer
+        android:id="@+id/chronometer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewSeries"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textExerciseName"
+        android:gravity="center"
+        android:layout_marginTop="28dp"
+        android:textSize="60sp" />
+
+    <TextView
+        android:id="@+id/textViewRepeats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textViewPesoValue"
+        android:layout_toLeftOf="@+id/textViewPesoValue"
+        android:background="@drawable/barra_texto"
+        android:padding="2dp"
+        android:text="@string/txt_repeats"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/White" />
+
+    <TextView
+        android:id="@+id/textViewPeso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/textViewPesoValue"
+        android:layout_toRightOf="@+id/imageView_exercicio"
+        android:background="@drawable/barra_texto"
+        android:gravity="center"
+        android:padding="2dp"
+        android:text="@string/txt_peso"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/White" />
+
+</RelativeLayout>
